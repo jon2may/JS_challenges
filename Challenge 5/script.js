@@ -6,7 +6,7 @@ let check;
 let tip;
 
 function tipCalculator(check) {
-    if (check >= 50 || check <= 300) {
+    if (check >= 50 && check <= 300) {
         return tip = check * 0.15 ;
     }
     else {
